@@ -13,3 +13,6 @@
 |          |  + s(air,bs='cr')        |                          | |
 | test57  |  ~  s(lon, lat) | ~  s(lon, lat) | ~1|
 |          |  + te(air,k=c(3,3))        |                          | |
+| test5  |  ~  s(lon, lat) + te(air,k=c(3,3)) | ~  s(lon, lat) | ~1|
+|          |   s(lon, lat) + te(air, glost, k=c(3,3,3))    |         ~ te(lon,lat, glost, k=c(3,3,3))                 | ~1|
+
