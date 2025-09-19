@@ -11,3 +11,5 @@
 |          |  + s(air,bs='cr')        |                          | |
 | test56  |  ~  te(lon, lat,k=c(5,5)) | ~  te(lon, lat,k=c(3,3)) | ~1|
 |          |  + s(air,bs='cr')        |                          | |
+| test57  |  ~  s(lon, lat) | ~  s(lon, lat) | ~1|
+|          |  + te(air,k=c(3,3))        |                          | |
